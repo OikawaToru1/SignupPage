@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.main
+{
+    display: flex;
+}
+
+.leftBody
+{
+    background-color: pink;
+    height: 100vh;
+    width: 60vw;
+    background-image: url(asset/aaron-burden-LNwn_A9RGHo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightBody
+{
+    height: 100vh;
+    width: 40vw;
+    background-color: aliceblue;
+}
+
+.title
+{
+    font-size: xx-large;
+    text-align: center;
+    background-color: cornflowerblue;
+    
+}
+
+.Intro
+{
+    height: 15vh;
+    text-overflow: clip;
+}
+.mainbody
+{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.form-row
+{
+   margin: 30px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+
+.form-row input[type='text']
+{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 16px;
+}
+.form-row input[type='password']
+{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button
+{   
+    
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+button :hover
+{
+    cursor: pointer;
+    background-color: cadetblue;
+    border: 2px solid;
+}
+
+.form-row input :hover
+{
+    border: 5px solid;
+    box-shadow: black;
+    background-color: blanchedalmond;
+}
